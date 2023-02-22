@@ -4,10 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Perfect Chau</title>
-        <!-- font awesome -->
+    <title>Unique CarWash</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+     <!-- normalize css -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <!-- font awesome -->
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="sandiego.css">
+     <!-- owl carousel -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <link rel="stylesheet" href="unique.css">
 </head>
 <body>
     <nav class="navbar">
@@ -15,7 +21,7 @@
             <div class="brand-and-toggler flex">
                 <a href="#" class="navbar-brand">
                     <span>
-                        <img src="logo.PNG" alt="">
+                        <img src="brandlogo.PNG" alt="">
                     </span>
                 </a>
                 <button type="button" class="btn navbar-toggler-open">
@@ -29,168 +35,169 @@
 
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a href="index.html" class="nav-link">Home</a>
+                        <a href="carwash.html" class="nav-link">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a href="services.html" class="nav-link">Service</a>
+                        <a href="#service" class="nav-link">Service</a>
                     </li>
                     <li class="nav-item">
-                        <a href="about.html" class="nav-link">About</a>
+                        <a href="#reviews" class="nav-link">Reviews</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contactus" class="nav-link">Contact</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-    <section class="top">
-        <div class="hero">
-            <img src="h.png" alt="">
-            <h1 class="headline">Welcome to Perfect Chau</h1>
-            <p>We specialize in making your occasions extra-special! We offer a range of services to ensure your event is hassle-free, including customized menus that feature different ingredients and an experienced team of chefs and planners. Whether it's a formal dinner, an Outdoor gathering, or just something casual, our team is here to make sure guests have the best experience possible.</p>
+    <section class="home" id="carwash">
+        <div class="picture">
+            <img src="bbk.JPG" alt="">
+        </div>
+        <div class="wrapper">
+            <div class="txt">Welcome to Unique</div>
+            <ul class="run-text">
+                <li><span>Carwash</span></li>
+                <li><span>Car Detailing</span></li>
+                <li><span>Pool Bar</span></li>
+            </ul>
+        </div>
+        <div class="paragraph" data-aos="fade-down" data-aos-delay="200">
+            <p>A full-service car wash that provides thorough cleansing to both inside and outside your car. Maintaning the surface of your vehicle is as important as maintaining the vehicle's engine and Unique carwash got you covered. We are here to give your car the best cleaning it ever had and make you  get the feeling of driving a New car Everyday at a very affordable price. We provide excellent customer service to you car and we keep your time in mind along making sure all services are consistent and quality controlled.</p>
         </div>
     </section>
-    <div class="slider"></div>
-    <section class="serv">
-        <!-- <div class="heai">
-            <h1>Varieties</h1>
-        </div> -->
-        <div class="cover-one">
-           <div class="inner">
-            <img src="smallchops.PNG" alt="">
-            <h2>Small Chops</h2>
-           </div>
-           <div class="inner">
-            <img src="asun.PNG" alt="">
-            <h2>Asun</h2>
-           </div>
-        </div>
 
-        <div class="cover-two">
-            <div class="inner">
-             <img src="grills.PNG" alt="">
-             <h2>Grills</h2>
-            </div>
-            <div class="inner">
-             <img src="catering.PNG" alt="">
-             <h2>Catering</h2>
-            </div>
-         </div>
-    </section>
-    <section class="testimonial">
-     <div class="monial">
-      <h3>Reviews</h3>
-      <div class="testimonial-text">
-        <div class="user-text">
-          <i class="fas fa-quote-left"></i>
-          <p>Perfect Chau has been in business for more than a decade and their services are always great.</p>
-          <span>Mr Samuel Abiola</span>
-        </div>
-        <div class="user-text active-text">
-          <i class="fas fa-quote-left"></i>
-          <p>One of the main advantages of Pefect Chau events and catering services is their commitment to delivering top notch foods.</p>
-          <span>Mrs Anna Okafor</span>
-        </div>
-        <div class="user-text">
-          <i class="fas fa-quote-left"></i>
-          <p>Apart from their delicious food, one thing i noticed about the business is the friendly nature of their workers. I think their customer service is excellent.</p>
-          <span>Mr Ganni Babalola</span>
-        </div>
-        <div class="user-text">
-          <i class="fas fa-quote-left"></i>
-          <p>The ability to provide exceptional service for each clients regardless of their budget or size of events is something i find amazing by this company.</p>
-          <span>Mrs Tega Umukoro</span>
-        </div>
-        <div class="user-text">
-          <i class="fas fa-quote-left"></i>
-          <p>Perfect Chau's ability to pay attention to detail in organizing my events is really commendable.</p>
-          <span>Mr Roland Omuta</span>
-        </div>
-      </div>
-      <div class="testimonial-pic">
-        <img src="og.PNG" class="user-pic" onclick="showReview()">
-        <img src="r2.PNG" class="user-pic active-pic" onclick="showReview()">
-        <img src="r3.PNG" class="user-pic" onclick="showReview()">
-        <img src="r1.PNG" class="user-pic" onclick="showReview()">
-        <img src="r4.PNG" class="user-pic" onclick="showReview()">
-      </div>
+    <div class="heading" data-aos="fade-right" data-aos-delay="300">
+        <h1>Our Services</h1>
     </div>
-     </section>
-     <section class="footer">
-        <div class="col-1">
-          <h3>USEFUL LINKS</h3>
-          <a href="index.html">Home</a>
-          <a href="services.html">Services</a>
-          <a href="about.html">About</a>
+    <section class="service" id="service" data-aos="fade-up" data-aos-delay="310">
+        <div class="container">
+            <div class="pic">
+                <img src="interior.JPG" alt="">
+            </div>
+            <div class="writeup">
+                <p>Interior Care</p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="pic">
+                <img src="engine.JPG" alt="">
+            </div>
+            <div class="writeup">
+                <p>Engine Wash</p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="pic">
+                <img src="ceramic.PNG" alt="">
+            </div>
+            <div class="writeup">
+                <p>Ceramic Protection</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="reviews" id="reviews" data-aos="fade-down" data-aos-delay="400">
+        <div class="testimonial">
+            <h1>Customers Reviews</h1>
+        </div>
+        <div class="one logic active">
+            <h2> <a href="#">"</a> They render great service </h2>
+            <p>They have one of the best Car wash at the moment. <br>Their staff are commited to great service and are well <br>mannered and my car is always thoroughly washed</p>
+            <h3>Joan okpoja</h3>
+            <img src="babe.PNG" alt="">
+        </div>
+        <div class="two logic">
+          <h2><span>"</span>They  have good Management</h2>
+          <p>I am most impressed with their orderly and service-oriented management approach. They always pay attention to detail.</p>
+          <h3>Daniel Omata</h3>
+          <img src="og.PNG" alt="">
+        </div>
+       <div class="three logic">
+         <h2> <b>"</b>The Car wash is on point</h2>
+         <p>They ensure an on-time washing and always make sure<br>my car is properly washed and cleaned in limited time. <br>They are realy good in what they do.</p>
+         <h3>Philip Ator</h3>
+         <img src="nigga.PNG" alt=""> 
+       </div>
+        <div class="color-picker">
+            <div data-checker="one" class="accent-wrapper checked">
+                <span class="accent one"></span>
+            </div>
+            <div data-checker="two" class="accent-wrapper">
+             <span class="accent two"></span>
+         </div>
+         <div data-checker="three" class="accent-wrapper">
+             <span class="accent three"></span>
+         </div>
+        </div> 
+    </section>
+
+    <section class="about" id="about">
+        <div class="head" data-aos="fade-in" data-aos-delay="450">
+            <h4>About</h4>
+        </div>
+        <div class="picc" data-aos="fade-right" data-aos-delay="500">
+            <img src="about.JPG" alt="">
+        </div>
+        <div class="us" data-aos="fade-left" data-aos-delay="520">
+            <p>Unique carwash is a car cleaning service company located in Sapele, Delta State. We offer one of the most efficient, cost-effective and spackling washing services in town. Aside from rendering quality and affordable Car Wash services, we have a Bar where customers can relax and wait. There are different brands of drinks available at the bar to serve the needs of customers and also also a Snooker table.</p>
+        </div>
+    </section>
+
+    <div class="footer" id="contactus">
+        <div class="col-1" data-aos="fade-up" data-aos-delay="580">
+            <h3>USEFUL LINKS</h3>
+            <a href="#carwash" id="carwash">Home</a>
+            <a href="#service" id="service">Service</a>
+            <a href="#about" id="about">About</a>
+            <a href="#contactus" id="contactus">Contact Us</a>
+        </div>
+        <div class="col-2" data-aos="fade-up" data-aos-delay="600">
+            <h3>NEWSLETTER</h3>
+            <form>
+                <input type="email" placeholder="Your Email Address" required>
+                <br>
+                <button type="submit">SUBSCRIBE NOW</button>
+            </form>
+        </div>
+        <div class="col-3" data-aos="fade-up" data-aos-delay="650">
+            <h3>CONTACT</h3>
+            <h4>08069503900</h4>
+            <p>Number 2, Ogono Close, Otite<br>Sapele, Delta State, Nigeria.</p>
+            <ul class="social-links">
+                <li class="flex">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                </li>
+                <li class="flex">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </li>
+                <li class="flex">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li class="flex">
+                    <a href="#"><i class="fab fa-pinterest"></i></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-info">
+        <p>&copy; <span id="displayYear"></span>All Rights Reserved By
+        <a href="#">Unique Car Wash</a></p>
+        <div class="up" id="up">
+            <i class="fas fa-chevron-up"></i>
+        </div>
       </div>
-      <ul class="social-links">
-        <li class="flex">
-            <a href="https://www.facebook.com/perfectchau"><i class="fab fa-facebook-f"></i></a>
-        </li>
-        <li class="flex">
-            <a href="https://www.instagram.com/perfect_chau"><i class="fab fa-instagram"></i></a>
-        </li>
-        <li class="flex">
-            <a href="#"><i class="fab fa-twitter"></i></a>
-        </li>
-    </ul>
-      <div class="col-3">
-          <h3>CONTACT</h3>
-          <p>Suite 6&7, Abba Father Shopping Complex,<br>Redemption Camp, Ogun State.</p>
-          <p>08039596344</p>
-      </div>
-     </section>
-     <p class="copyright">&copy; 2023 Perfectchaw. All rights reserved.</p>
 
-    
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js" integrity="sha512-DkPsH9LzNzZaZjCszwKrooKwgjArJDiEjA5tTgr3YX4E6TYv93ICS8T41yFHJnnSmGpnf0Mvb5NhScYbwvhn2w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js" integrity="sha512-0xrMWUXzEAc+VY7k48pWd5YT6ig03p4KARKxs4Bqxb9atrcn2fV41fWs+YXTKb8lD2sbPAmZMjKENiyzM/Gagw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-    <!-- jquery -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-    
-    <script src="sandiego.js"></script>
-    <script>
-            const hero = document.querySelector(".hero");
-            const slider = document.querySelector(".slider");
-            const logo = document.querySelector(".navbar-brand");
-            const hamburger = document.querySelector(".nav-item");
-            const headline = document.querySelector(".headline");
-            const coverone = document.querySelector(".cover-one");
-            const covertwo = document.querySelector(".cover-two");
-            const monial = document.querySelector(".monial")
-
-             const tl = new TimelineMax();
-
-            tl.fromTo(hero, 1, {height: "0%"}, {height: "80%", ease: Power2.easeInOut })
-            .fromTo(hero,1.2, {width: "100%"}, {width: "80%", ease: Power2.easeInOut })
-            .fromTo(slider, 1.2, {x: "-100%"}, {x: "0%", ease: Power2.easeInOut}, "-=1.2")
-            .fromTo(logo,0.5, {opacity: 0, x: 30}, {opacity: 1, x: 0}, "-=0.5")
-            // .fromTo(hamburger,0.5, {opacity: 0, x: 30}, {opacity: 1, x: 0}, "-=0.5")
-            .fromTo(coverone, 4, {x: "-100%"}, {x: "0%", ease: Power2.easeInOut}, "-=1.2")
-            .fromTo(covertwo, 4, {x: "-100%"}, {x: "0%", ease: Power2.easeInOut}, "-=1.2");
-    </script>
-
-    <script>
-    let userTexts = document.getElementsByClassName("user-text");
-    let userPics = document.getElementsByClassName("user-pic");
-
-    function showReview(){
-    for(userPic of userPics){
-        userPic.classList.remove("active-pic");
-    }
-    for(userText of userTexts){
-        userText.classList.remove("active-text");
-    }
-    let i = Array.from(userPics).indexOf(event.target);
-
-    userPics[i].classList.add("active-pic");
-    userTexts[i].classList.add("active-text");
-   }
-
-  </script>
-  
-         
+   
+   
+     <!-- jquery -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+     <script src="unique.js"></script>
+     <!-- owl carousel -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 </body>
 </html>
