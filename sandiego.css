@@ -453,6 +453,7 @@ ul{
     color: #000;
     z-index: 3;
     line-height: 30px;
+    text-align: center;
 }
 
 /* responsive for tablets############################################################ */
@@ -643,12 +644,12 @@ ul{
     }
     .cover-one {
         padding: 10px;
-        gap: 80px;
+        gap: 100px;
         top: 40px;
     }
     .cover-two {
         padding: 10px;
-        gap: 80px;
+        gap: 100px;
         position: relative;
         top: 40px;
     }
