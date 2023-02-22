@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+        <!-- font awesome -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="sandiego.css">
+    <link rel="stylesheet" href="about.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container flex">
+            <div class="brand-and-toggler flex">
+                <a href="#" class="navbar-brand">
+                    <span>
+                        <img src="logo.PNG" alt="">
+                    </span>
+                </a>
+                <button type="button" class="btn navbar-toggler-open">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+            <div class="navbar-collapse">
+                <button type="button" class="btn navbar-toggler-close">
+                    <i class="fas fa-times"></i>
+                </button>
+
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="services.html" class="nav-link">Service</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="top">
+        <div class="hero">
+            <img src="4444.PNG" alt="">
+            <h1 class="headline2">About Perfect Chau</h1>
+            <p>Perfect Chau is an award winning events and catering service company based in Nigeria. We are at the forefront of the industry and provides services to clients across the country. For each event, our chefs craft delicious dishes with the freshest ingredients, prepared to perfection for each client needs. We are devoted to making sure each event or catering experience meets or exceeds our client's expectations.</p>
+        </div>
+    </section>
+    <div class="slider"></div>
+   
+     <section class="footer">
+        <div class="col-1">
+          <h3>USEFUL LINKS</h3>
+          <a href="index.html">Home</a>
+          <a href="services.html">Services</a>
+          <a href="about.html">About</a>
+      </div>
+      <ul class="social-links">
+        <li class="flex">
+            <a href="https://www.facebook.com/perfectchau"><i class="fab fa-facebook-f"></i></a>
+        </li>
+        <li class="flex">
+            <a href="https://www.instagram.com/perfect_chau"><i class="fab fa-instagram"></i></a>
+        </li>
+        <li class="flex">
+            <a href="#"><i class="fab fa-twitter"></i></a>
+        </li>
+    </ul>
+      <div class="col-3">
+          <h3>CONTACT</h3>
+          <p>Suite 6&7, Abba Father Shopping Complex,<br>Redemption Camp, Ogun State.</p>
+          <p>08039596344</p>
+      </div>
+     </section>
+     <p class="copyright">&copy; 2023 Perfectchaw. All rights reserved.</p>
+
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js" integrity="sha512-DkPsH9LzNzZaZjCszwKrooKwgjArJDiEjA5tTgr3YX4E6TYv93ICS8T41yFHJnnSmGpnf0Mvb5NhScYbwvhn2w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js" integrity="sha512-0xrMWUXzEAc+VY7k48pWd5YT6ig03p4KARKxs4Bqxb9atrcn2fV41fWs+YXTKb8lD2sbPAmZMjKENiyzM/Gagw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- jquery -->
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    
+    <script src="sandiego.js"></script>
+    <script>
+            const hero = document.querySelector(".hero");
+            const slider = document.querySelector(".slider");
+            const logo = document.querySelector(".navbar-brand");
+            const hamburger = document.querySelector(".nav-item");
+            const headline2 = document.querySelector(".headline2");
+            const coverone = document.querySelector(".cover-one");
+            const covertwo = document.querySelector(".cover-two");
+            const monial = document.querySelector(".monial")
+
+             const tl = new TimelineMax();
+
+            tl.fromTo(hero, 1, {height: "0%"}, {height: "80%", ease: Power2.easeInOut })
+            .fromTo(hero,1.2, {width: "100%"}, {width: "80%", ease: Power2.easeInOut })
+            .fromTo(slider, 1.2, {x: "-100%"}, {x: "0%", ease: Power2.easeInOut}, "-=1.2")
+            .fromTo(logo,0.5, {opacity: 0, x: 30}, {opacity: 1, x: 0}, "-=0.5")
+            .fromTo(hamburger,0.5, {opacity: 0, x: 30}, {opacity: 1, x: 0}, "-=0.5")
+            .fromTo(coverone, 4.5, {x: "-100%"}, {x: "0%", ease: Power2.easeInOut}, "-=1.2")
+            .fromTo(covertwo, 4.6, {height: "0%"}, {height: "40%", ease: Power2.easeInOut })
+            .fromTo(monial, 4.6, {opacity: 0, y: 30}, {opacity: 1, y: 0, });
+    </script>
+
+    <script>
+    let userTexts = document.getElementsByClassName("user-text");
+    let userPics = document.getElementsByClassName("user-pic");
+
+    function showReview(){
+    for(userPic of userPics){
+        userPic.classList.remove("active-pic");
+    }
+    for(userText of userTexts){
+        userText.classList.remove("active-text");
+    }
+    let i = Array.from(userPics).indexOf(event.target);
+
+    userPics[i].classList.add("active-pic");
+    userTexts[i].classList.add("active-text");
+   }
+
+  </script>
+
+         
+</body>
+</html>
