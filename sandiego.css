@@ -420,7 +420,7 @@ ul{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    gap: 100px;
     position: relative;
     top: 60px;
 }
@@ -428,7 +428,7 @@ ul{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 150px;
+    gap: 100px;
     position: relative;
     top: 100px;
     margin-left: 20px;
@@ -625,7 +625,7 @@ ul{
     /* top#### */
     .headline {
         position: absolute;
-        top: 14%;
+        top: 12%;
         left: 26%;
         font-size: 20px;
     }
@@ -643,12 +643,12 @@ ul{
     }
     .cover-one {
         padding: 10px;
-        gap: 20px;
+        gap: 50px;
         top: 40px;
     }
     .cover-two {
         padding: 10px;
-        gap: 20px;
+        gap: 50px;
         position: relative;
         top: 40px;
     }
@@ -765,7 +765,7 @@ ul{
     /* About############################################# */
     .headline2 {
         position: absolute;
-        top: 16%;
+        top: 13%;
         left: 33%;
         font-size: 20px;
         transform: translate(-20%, -70%);
